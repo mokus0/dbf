@@ -2,6 +2,7 @@ module Database.XBase.Dbf
     ( module Database.XBase.Dbf.Structures
     , module Database.XBase.Dbf.Handle
     , module Database.XBase.Dbf.Year8
+    , readDbfFile, writeDbfFile
     ) where
 
 import Database.XBase.Dbf.Structures

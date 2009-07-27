@@ -1,5 +1,5 @@
 name:                   dbf
-version:                0.0.0.1
+version:                0.0.0.2
 stability:              experimental
 
 cabal-version:          >= 1.2
