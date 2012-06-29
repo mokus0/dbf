@@ -2,13 +2,13 @@ name:                   dbf
 version:                0.0.0.2
 stability:              experimental
 
-cabal-version:          >= 1.2
+cabal-version:          >= 1.6
 build-type:             Simple
 
-author:                 James Cook <james.cook@usma.edu>
-maintainer:             James Cook <james.cook@usma.edu>
+author:                 James Cook <mokus@deepbondi.net>
+maintainer:             James Cook <mokus@deepbondi.net>
 license:                PublicDomain
-homepage:               http://code.haskell.org/~mokus/dbf
+homepage:               https://github.com/mokus0/dbf
 
 category:               Database
 synopsis:               Read and write XBase ".dbf" files
@@ -16,6 +16,10 @@ description:            A simple interface for reading and writing XBase dbf
                         files.  Provides whole-file parser and serializer as
                         well as a handle-based interface for reading and writing
                         records from a file.
+
+source-repository head
+  type:                 git
+  location:             https://github.com/mokus0/dbf.git
 
 Library
   hs-source-dirs:       src
